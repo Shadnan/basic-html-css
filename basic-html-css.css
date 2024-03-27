@@ -1,0 +1,41 @@
+.basic h1{
+    color:blue
+    
+}
+.basic{
+    border: 5px solid green;
+    background-color: gray;
+    padding: 8px;
+    margin: 9px;
+    box-shadow: 5px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.basic li{
+    text-align: left;
+    font-size: 2em;
+    border: 2px solid black;
+    display:inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: purple;
+    
+    
+}
+
+.basic2{
+    border: 3px solid red;
+    background-image: url(photos11.jpg.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: cover; 
+    height: 70vh;
+    width:100%;
+}
+.basic2 > .right{
+    border: 3px solid green;
+    text-align: right;
+    
+}
